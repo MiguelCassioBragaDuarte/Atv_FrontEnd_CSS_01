@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula HTML/CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+
+    <nav>
+
+        <ul>
+            <li>
+                <a href="index.html" target="_top">Inicio</a>
+            </li>
+            <li>
+                <a href="servicos.html" target="_top">Serviços</a>
+            </li>
+            <li>
+                <a href="sobre.html" target="_top">Sobre</a>
+            </li>
+            <li>
+                <a href="contato.html" target="_top">Contato</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <div class="row">
+            <div class="cartao_contato">
+                <h2>
+                    Contate Nós
+                </h2>
+            <fieldset>
+                <form action="" method="post">
+
+                    <label for="nome">Nome: </label>
+                    <br>
+                    <input type="text" name="nome" id="nome" maxlength="80" size="100%" placeholder="Digite seu nome: "
+                        required>
+
+                    <br /><br />
+
+                    <label for="email">Email : </label>
+                    <br>
+                    <input type="email" name="mail" id="mail" maxlength="60" size="100%"
+                        placeholder="Digite seu E-mail: " required>
+
+                    <br /><br />
+
+                    <label for="telefone">Telefone : </label>
+                    <br>
+                    <input type="tel" name="fone" id="fone" maxlength="15" size="100%"
+                        placeholder="Digite seu telefone: " required>
+
+                    <br /><br />
+
+                    <label for="">Comentário : </label>
+                    <br />
+                    <textarea name="coment" id="coment" cols="40" rows="10" maxlength="200"
+                        placeholder="Digite seu Comentário"></textarea>
+                    <br /><br />
+                    <input type="submit" name="enviar" id="enviar" value="Enviar">
+                    
+                </form>
+            </fieldset>
+        </div>
+        </div>
+    </main>
+
+    <footer class="footer_sobre">
+        <p>
+            &copy;Todos os direitos reservados - Miguel Duarte - 2024
+        </p>
+    
+    </footer>
+
+</body>
+
+</html>
